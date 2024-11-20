@@ -28,3 +28,7 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# Tencent Cloud Edge Functions
+.env
+  
