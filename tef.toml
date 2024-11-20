@@ -1,0 +1,7 @@
+
+name = "vue-template-maple"
+rootDir = "/"
+outputDir = "dist"
+installCmd = ""
+buildCmd = "npm run build"
+    
