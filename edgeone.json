@@ -6,14 +6,15 @@
  
   "redirects": [
     {
-      "source": "/about",
-      "destination": "/about-team.html",
-      "statusCode": 200
-    },
-    {
       "source": "/price",
       "destination": "/product",
       "statusCode": 302
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/about-team.html"
     }
   ],
   "headers": [
