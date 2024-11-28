@@ -1,5 +1,4 @@
 {
-  "name": "example-app",
   "buildCommand": "pnpm run build",
   "installCommand": "pnpm install",
   "nodeVersion": "22.11.0",
