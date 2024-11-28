@@ -32,3 +32,7 @@ coverage
 # Tencent Cloud Edge Functions
 .env
   
+# Tencent Cloud Edge Functions
+.env
+.tef_dist
+  

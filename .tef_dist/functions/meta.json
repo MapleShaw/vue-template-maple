@@ -1,6 +1,6 @@
 
 {
   "assets": {
-    "functions": [{"helloworld":{}}]
+    "functions": [{"checkout":{}},{"helloworld":{}},{"test":{}}]
   }
 }

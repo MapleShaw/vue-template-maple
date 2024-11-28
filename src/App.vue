@@ -13,6 +13,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/about-team.html">团队介绍</RouterLink>
+        <RouterLink to="/product">产品介绍</RouterLink>
+        <RouterLink to="/price">价格</RouterLink>
       </nav>
     </div>
   </header>

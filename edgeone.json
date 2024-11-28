@@ -1,0 +1,38 @@
+{
+  "name": "example-app",
+  "buildCommand": "pnpm run build",
+  "installCommand": "pnpm install",
+  "nodeVersion": "22.11.0",
+ 
+  "redirects": [
+    {
+      "source": "/about",
+      "destination": "/about-team.html",
+      "statusCode": 200
+    },
+    {
+      "source": "/price",
+      "destination": "/product",
+      "statusCode": 302
+    }
+  ],
+  "headers": [
+    {
+      "source": "/*",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
+}

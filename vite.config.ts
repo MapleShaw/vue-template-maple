@@ -10,10 +10,9 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/functions': {
-        target: 'http://localhost:8080',
+      '/checkout': {
+        target: 'http://localhost:8088',
         changeOrigin: true,
-        // rewrite: (path) => path.replace(/^\/functions/, '')  // 如果需要重写路径
       }
     }
   },
