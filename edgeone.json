@@ -12,7 +12,7 @@
   ],
   "rewrites": [
     {
-      "source": "/about",
+      "source": "/static-page.html",
       "destination": "/about-team.html"
     }
   ],

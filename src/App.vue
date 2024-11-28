@@ -16,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/about-team.html">团队介绍</RouterLink>
         <RouterLink to="/product">产品介绍</RouterLink>
         <RouterLink to="/price">价格</RouterLink>
+        <a href="/static-page.html">静态页面</a>
       </nav>
     </div>
   </header>
