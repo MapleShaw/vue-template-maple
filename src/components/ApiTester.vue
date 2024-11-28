@@ -16,9 +16,9 @@ const testEndpoint = async (endpoint: string) => {
     loading.value = true
     const response = await fetch(endpoint)
     const data = await response.json()
-    results.value[endpoint] = data
-  } catch (err) {
-    error.value = err.message
+    results.value = { ...results.value, [endpoint]: data }
+  } catch (err: unknown) {
+    error.value = err instanceof Error ? err.message : String(err)
   } finally {
     loading.value = false
   }
